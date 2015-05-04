@@ -13,7 +13,7 @@
       "description": "A Slack API token (find it on https://api.slack.com/web)",
       "required": true
     },
-    "SLACK_CHANNEL": {
+    "SLACK_CHANNELS": {
       "description": "Name of a single guest channel to invite them to (leave blank for a normal, all-channel invite)",
       "required": false
     }
