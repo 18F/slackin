@@ -19,7 +19,7 @@ Read more about the [motivations and history](http://rauchg.com/slackin) behind 
 
 ### Server
 
-[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/rauchg/slackin/tree/d36c365)
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/rauchg/slackin/tree/0.5.0)
 
 Or install it and launch it on your sever:
 
@@ -28,7 +28,7 @@ $ npm install -g slackin
 $ slackin "your-slack-subdomain" "your-slack-token"
 ```
 
-You can find your API token at [api.slack.com/web](https://api.slack.com/web).
+You can find your API token at [api.slack.com/web](https://api.slack.com/web) – note that the user you use to generate the token must be an admin. You may want to create a dedicated `@slackin-inviter` user (or similar) for this.
 
 The available options are:
 
