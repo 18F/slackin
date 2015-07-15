@@ -1,4 +1,8 @@
-#!/usr/bin/env node
+#!/bin/sh
+":" //# comment; exec /usr/bin/env node --max_old_space_size=350 "$0" "$@"
+
+// Above from http://sambal.org/2014/02/passing-options-node-shebang-line/. Needed because Node was reaching the memory quota on Cloud Foundry before garbage collection was kicking in. More info:
+// https://github.com/joyent/node/wiki/FAQ#what-is-the-memory-limit-on-a-node-process
 
 var pkg = require('../package');
 var program = require('commander');
