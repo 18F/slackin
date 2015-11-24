@@ -1,6 +1,6 @@
 {
   "name": "slackin",
-  "version": "0.5.1",
+  "version": "0.7.1",
   "description": "",
   "dependencies": {
     "babel": "4.7.1",
@@ -17,7 +17,7 @@
   },
   "devDependencies": {
     "mocha": "2.2.4",
-    "nock": "0.48.1",
+    "nock": "2.17.0",
     "supertest": "0.15.0"
   },
   "engines": {
